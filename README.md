@@ -2,7 +2,7 @@
 
 pytorch_mmap is a lightweight tool to save and load pytorch CPU model in the form of [*mmap*](https://en.wikipedia.org/wiki/Mmap). 
 
-When a model is loaded in the form of *mmap*, model parameters are actually still located on the disk, they are only mapped, not copied, into memory. Therefore, loading a *mmap* model form takes up almost no memory space.
+When a model is loaded in the form of *mmap*, model parameters are actually still located on the disk, they are only mapped, not copied, into memory. Therefore, loading a *mmap* model takes up almost no memory space.
 
 
 
