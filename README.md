@@ -23,7 +23,7 @@ Save a pytorch model in *mmap* form:
 ```python
 import pytorch_mmap
 
-# 'model' is the pytorch model to be save.
+# 'model' is the pytorch model to be saved.
 # "model_dir" is the directory to save the mmap model. It will be created if it does not exist.
 pytorch_mmap.save(model, "model_dir")
 ```
