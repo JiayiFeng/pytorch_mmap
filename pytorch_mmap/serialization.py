@@ -11,6 +11,10 @@ _storages_types: list = [
     torch.CharStorage,
     torch.ByteStorage,
     torch.BoolStorage,
+    torch.QInt8Storage,
+    torch.QInt32Storage,
+    torch.BFloat16Storage,
+    torch.QUInt8Storage
 ]
 _dtype_to_storage = {
     data_type(0).dtype: data_type for data_type in _storages_types
